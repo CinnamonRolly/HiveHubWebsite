@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-scroll';
 import { HiMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
@@ -9,18 +10,26 @@ const Navbar = () => {
   }
 
   return (
-    <div className='w-full fixed backdrop-blur-md bg-[#151515]'>
+    <div className='w-full fixed backdrop-blur-md bg-[#151515] z-20'>
       <div className='text-white flex flex-row justify-between p-3'>
       <h1 className='text-2xl text-transparent  bg-clip-text py-1 px-3 font-bold bg-gradient-to-r from-[#eec33d] to-[#ea9d3e]'>Hive Hub</h1> 
-      <ul className='hidden md:flex items-center gap-5 font-semibold text-[18px]'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Price</li>
-        <li>Contact</li>
+      <ul className='hidden md:flex items-center gap-8 font-semibold text-[16px]'>
+        <li className='hover:text-[#eec33d] cursor-pointer'>
+          <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
+        </li>
+        <li className='hover:text-[#eec33d] cursor-pointer'>
+          <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+        </li>
+        <li className='hover:text-[#eec33d] cursor-pointer'>
+            <Link to="price" spy={true} smooth={true} offset={-100} duration={500}>Price</Link>
+        </li>
+        <li className='hover:text-[#eec33d] cursor-pointer'>
+            <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+        </li>
       </ul>
       <div className='items-center flex justify-center gap-3 px-2'>
         <div className='items-center text-[14px] justify-center flex px-4 py-2 bg-gradient-to-r from-[#eec33d] to-[#ea9d3e] text-[#151515] font-bold rounded-full'>
-          <a href="/" >
+          <a href="https://discord.com/invite/cAtaPBr2YD" >
             Join Now
           </a>
         </div>
