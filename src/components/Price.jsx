@@ -6,17 +6,17 @@ const Price = () => {
       <div className='max-w-[800px] mx-auto'>
         <h1 className='text-transparent bg-clip-text py-1 px-3 font-bold bg-gradient-to-r from-[#eec33d] to-[#ea9d3e] text-4xl'>Pricing</h1>
         
-        <div className='md:grid md:grid-cols-3 grid grid-rows-2 justify-center gap-5 mx-auto'>
-          <div className='md:w-[250px] w-full p-7 rounded-lg bg-[#121212]'>
-            <h1 className='text-2xl font-bold'>🍯 HiveHub Elite Worker Plan</h1>
-            <p className='text-[16px] font-semibold'>$19.99/month</p>
-            <ul className='flex-col flex pt-3'>
-              <li>· 📚 Access to Bee-ginner courses and educational resources.</li>              
-              <li>· 🐝 Active participation in the HiveHub community forums.</li>
-              <li>· 📈 Weekly buzz-worthy market updates and insights.</li>
-              <li className='items-center text-[14px] justify-center font-bold w-full mt-5 flex px-4 py-2 mr-6 rounded-full bg-gradient-to-r from-[#eec33d] to-[#ea9d3e] text-[#151515] '>
-                <a href="https://discord.com/invite/cAtaPBr2YD" >
-                  Join now
+        <div classname='md:grid md:grid-cols-3 grid grid-rows-2 justify-center gap-5 mx-auto'>
+          <div classname='md:w-[250px] w-full p-7 rounded-lg bg-[#121212]'>
+            <h1 classname='text-2xl font-bold'>🍯 hivehub elite worker plan</h1>
+            <p classname='text-[16px] font-semibold'>$19.99/month</p>
+            <ul classname='flex-col flex pt-3'>
+              <li>· 📚 access to bee-ginner courses and educational resources.</li>              
+              <li>· 🐝 active participation in the hivehub community forums.</li>
+              <li>· 📈 weekly buzz-worthy market updates and insights.</li>
+              <li classname='items-center text-[14px] justify-center font-bold w-full mt-5 flex px-4 py-2 mr-6 rounded-full bg-gradient-to-r from-[#eec33d] to-[#ea9d3e] text-[#151515] '>
+                <a href="https://discord.com/invite/catapbr2yd" >
+                  join now
                 </a>
               </li>
             </ul>
